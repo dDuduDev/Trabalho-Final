@@ -26,7 +26,6 @@ function startCountdown(seconds, callback) {
   }
 }
 
-//miguel//
 
 const cores = [
   { nome: "Vermelho", cor: "red" },
@@ -35,7 +34,10 @@ const cores = [
   { nome: "Amarelo", cor: "yellow" },
   { nome: "Roxo", cor: "purple" },
   { nome: "Preto", cor: "black" },
-  { nome: "Laranja", cor: "orange" }
+  { nome: "Laranja", cor: "orange" },
+  { nome: "Rosa", cor: "pink" },
+  { nome: "Marrom", cor: "brown" },
+  { nome: "Cinza", cor: "gray" }
 ];
 
 const nomes = document.getElementById("nomes");
